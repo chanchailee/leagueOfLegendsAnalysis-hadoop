@@ -205,3 +205,244 @@
 2017-12-05 21:00:47,545 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
 2017-12-05 21:00:47,547 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-05 21:00:47,547 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:05:51,992 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-05 21:05:52,395 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bigdata:lol:beta @ /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/pom.xml.
+2017-12-05 21:05:52,796 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lol/src/main/java
+2017-12-05 21:05:52,797 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lol/src/test/java
+2017-12-05 21:05:52,992 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-12-05 21:05:53,332 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:05:53,333 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:05:53,336 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:05:53,336 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:25:04,412 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:25:04,412 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:25:04,415 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:25:04,415 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:25:24,871 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:25:24,872 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:25:24,874 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:25:24,874 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:29:53,818 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:29:53,818 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:29:53,821 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:29:53,821 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:31:48,575 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:31:48,576 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:31:48,578 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:31:48,578 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:32:10,972 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:32:10,973 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:32:10,974 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:32:10,974 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:32:23,890 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:32:23,891 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:32:23,892 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:32:23,893 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:32:56,344 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:32:56,344 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:32:56,346 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:32:56,346 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:33:12,645 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:33:12,645 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:33:12,646 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:33:12,646 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:36:21,069 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:36:21,069 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:36:21,070 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:36:21,071 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:40:00,587 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:00,587 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:40:00,589 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:00,589 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:40:27,633 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:27,634 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:40:27,635 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:27,635 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:40:28,662 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:28,662 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:40:28,663 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:28,664 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:40:59,167 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:59,167 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:40:59,169 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:40:59,169 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:41:12,854 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:12,854 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:41:12,855 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:12,856 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:41:14,046 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:14,047 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:41:14,049 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:14,049 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:41:27,249 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:27,249 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:41:27,250 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:27,251 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:41:31,572 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:31,573 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:41:31,574 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:41:31,574 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:42:27,140 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:42:27,141 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:42:27,142 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:42:27,143 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:43:12,645 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:43:12,645 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:43:12,647 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:43:12,648 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:43:33,578 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:43:33,578 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:43:33,580 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:43:33,580 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:43:39,525 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:43:39,526 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:43:39,527 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:43:39,527 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:48:35,467 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:48:35,467 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:48:35,469 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:48:35,469 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:48:38,612 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:48:38,613 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:48:38,615 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:48:38,616 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:50:34,234 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:50:34,235 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:50:34,236 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:50:34,237 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:52:54,703 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:52:54,703 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:52:54,704 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:52:54,705 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:53:00,142 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:53:00,143 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:53:00,144 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:53:00,144 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:54:37,973 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:54:37,973 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:54:37,974 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:54:37,974 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:56:07,500 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:56:07,500 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:56:07,502 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:56:07,502 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:56:25,994 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:56:25,994 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:56:25,995 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:56:25,995 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:56:33,855 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:56:33,855 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:56:33,859 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:56:33,859 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:58:43,879 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:58:43,879 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:58:43,880 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:58:43,880 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:59:07,310 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:07,310 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:59:07,311 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:07,312 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:59:14,346 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:14,346 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:59:14,347 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:14,347 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:59:28,264 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:28,264 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:59:28,265 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:28,265 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 21:59:33,166 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:33,166 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 21:59:33,167 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 21:59:33,167 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:01:26,149 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:01:26,149 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:01:26,150 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:01:26,151 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:08,839 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:08,840 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:08,841 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:08,841 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:17,978 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:17,979 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:17,982 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:17,983 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:27,240 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:27,240 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:27,242 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:27,242 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:45,301 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:45,302 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:45,303 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:45,303 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:48,008 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:48,009 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:48,014 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:48,015 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:50,814 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:50,815 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:50,816 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:50,816 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:02:56,399 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:56,399 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:02:56,400 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:02:56,400 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:06:06,979 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:06:06,980 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:06:06,980 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:06:06,980 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:06:47,151 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:06:47,151 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:06:47,152 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:06:47,152 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:07:23,827 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:07:23,827 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:07:23,828 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:07:23,828 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:07:26,802 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:07:26,803 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:07:26,804 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:07:26,804 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:07:32,012 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:07:32,012 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:07:32,013 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:07:32,013 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:08:24,389 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:08:24,389 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:08:24,390 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:08:24,390 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:08:46,422 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:08:46,422 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:08:46,423 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:08:46,423 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:08:52,735 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:08:52,735 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:08:52,738 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:08:52,738 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:04,858 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:04,858 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:04,859 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:04,859 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:12,339 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:12,339 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:12,340 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:12,340 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:16,777 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:16,777 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:16,779 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:16,779 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:36,805 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:36,805 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:36,805 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:36,806 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:41,161 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:41,162 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:41,164 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:41,164 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:49,131 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:49,131 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:49,132 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:49,132 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources
+2017-12-05 22:09:52,924 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:52,924 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/main/resources
+2017-12-05 22:09:52,925 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-05 22:09:52,925 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/cs616-BigDataProgramming/projects/final_project/lol/lol/src/test/resources

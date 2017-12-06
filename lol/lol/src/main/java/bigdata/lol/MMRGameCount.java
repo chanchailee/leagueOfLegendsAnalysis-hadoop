@@ -17,7 +17,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 import org.json.JSONObject;
 
-
 public class MMRGameCount {
 	public static void main(String[] args) throws Exception {
 
@@ -27,7 +26,7 @@ public class MMRGameCount {
 		Path input = new Path(files[0]);
 		/* output directory for job1 */
 		Path output = new Path(files[1]);
-	
+
 		Job job1 = new Job(c, "MMR GAME COUNT");
 		/* Specific main class in side jar file */
 		job1.setJarByClass(MMRGameCount.class);
@@ -37,14 +36,14 @@ public class MMRGameCount {
 		job1.setReducerClass(MGCReducer.class);
 
 		/* Modify number of reducers */
-//		int numReducers = 0;
-//		job1.setNumReduceTasks(numReducers);
+		// int numReducers = 0;
+		// job1.setNumReduceTasks(numReducers);
 
 		// job1.setNumReduceTasks(0);
 		job1.setOutputKeyClass(Text.class);
 
-//		job1.setOutputValueClass(Text.class);
-		
+		// job1.setOutputValueClass(Text.class);
+
 		job1.setOutputValueClass(IntWritable.class);
 
 		FileInputFormat.addInputPath(job1, input);
@@ -72,7 +71,7 @@ public class MMRGameCount {
 			mmr = obj.getDouble("mmr");
 
 			if (game_id != -1 && mmr != -1) {
-				k2.set(mmr+",");
+				k2.set(mmr + ",");
 
 				v2.set(1);
 				/* write the first mapreduce output */
@@ -82,9 +81,10 @@ public class MMRGameCount {
 
 		}
 	}
-	
+
 	public static class MGCReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 		IntWritable v3 = new IntWritable();
+
 		public void reduce(Text k2, Iterable<IntWritable> values, Context con)
 				throws IOException, InterruptedException {
 			int sum = 0;
@@ -92,9 +92,8 @@ public class MMRGameCount {
 				sum += value.get();
 			}
 			v3.set(sum);
-			con.write(k2,v3 );
+			con.write(k2, v3);
 		}
 	}
-	
-	
+
 }
