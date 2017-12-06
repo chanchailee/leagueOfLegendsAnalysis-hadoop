@@ -67,8 +67,8 @@ public class HighMMRWonWard {
 				String[] items = line.split(",");
 
 				/*
-				 * items[0] = game_id items[1] = mmr items[2] = match_result
-				 * items[3] = x items[4] = y items[5] = interval
+				 * items[0] = game_id , items[1] = mmr , items[2] = match_result
+				 * items[3] = x ,items[4] = y ,items[5] = interval
 				 */
 
 				if (Integer.parseInt(items[1].trim()) >= 2000 && items[2].trim().equals("won")) {

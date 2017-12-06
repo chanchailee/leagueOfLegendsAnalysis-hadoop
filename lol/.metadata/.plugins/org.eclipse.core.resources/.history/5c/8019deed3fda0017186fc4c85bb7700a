@@ -1,0 +1,525 @@
+package test;
+
+import java.io.BufferedReader;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringReader;
+import java.util.ArrayList;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+public class JsonTest {
+	static String path = "/Users/ccl/OneDrive/Documents/UAB/04.2017_Fall/"
+			+ "cs616-BigDataProgramming/projects/project2-LoL/";
+	static String folder = "input/";
+	static String file = "1.out";
+	static String fileName = path+folder+file;
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		
+
+		// This will reference one line at a time
+		String line = null;
+		String content = "";
+		try {
+			// FileReader reads text files in the default encoding.
+			FileReader fileReader = new FileReader(fileName);
+
+			// Always wrap FileReader in BufferedReader.
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+			while ((line = bufferedReader.readLine()) != null) {
+				// System.out.println(line);
+				content += line;
+			}
+
+			// Always close files.
+			bufferedReader.close();
+		} catch (FileNotFoundException ex) {
+			System.out.println("Unable to open file '" + fileName + "'");
+		} catch (IOException ex) {
+			System.out.println("Error reading file '" + fileName + "'");
+			// Or we could just do this:
+			// ex.printStackTrace();
+		}
+
+		// System.out.println(content);
+
+		// String input = content.toString();
+		// int result = 0;
+		// String championID = null;
+		// String region = null;
+		// String season = null;
+		// String patch = null;
+		// String mmr = null;
+		// String game_mode = null;
+		// String game_type = null;
+		// String winner = null;
+
+		//
+		// Any gameData = JsonIterator.deserialize(content.replace('\'', '"'));
+		// for (Any dataObject : gameData) {
+		// Map<String,Any> record = dataObject.asMap();
+		// region = record.get("region").toString();
+		// System.out.println(region);
+		// game_mode = record.get("game_mode").toString();
+		// game_type = record.get("game_type").toString();
+		// mmr = record.get("mmr").toString();
+		// season = record.get("season").toString();
+		// patch = record.get("patch").toString();
+		// winner = record.get("winner").toString();
+		// List players = (List) record.get("players");
+		//
+		// for (int i = 0; i < players.size(); i++) {
+		//
+		// Map player = (Map) players.get(i);
+		// championID = player.get("championID").toString();
+		//
+		// if (player.get("teamID").toString().equals(winner)) {
+		// result = 1;
+		// }
+		//
+		// System.out.print("KEY= "+championID + "," + region + ","
+		// + season + "," + patch + ","
+		// + mmr + ","
+		// + game_mode + ","
+		// + game_type + ",");
+		// System.out.println("\tVALUE= " +"1" + "," + result);
+		//
+		// }
+		// }
+
+//		JsonIterator iter = new JsonIterator();
+//		FileInputStream is = new FileInputStream(fileName);
+//		readJSON(JsonIterator.parse(content));
+
+//	 parsejson(content);
+		steamingAPI(content);
+
+	}
+
+	public static void readJSON(JsonIterator iter) throws IOException {
+		PrintWriter out = new PrintWriter(new FileWriter(
+				path + "output/"+"out_"+file));
+		String teamID = null;
+		String championID = null;
+		String localID = null;
+		int result = 0;
+		String region = null;
+		String game_state = null;
+		String game_mode = null;
+		String game_type = null;
+		String mmr = null;
+		String damage_time = null;
+		String winner_team = null;
+		String receiverUnitID = null;
+		String dealerUnitID = null;
+		String damage = null;
+
+		ArrayList<String> playerlists = new ArrayList<String>();
+		
+		for (String field = iter.readObject(); field != null; field = iter.readObject()) {
+			switch (field) {
+
+			case "region":
+				region = iter.readAny().toString();
+				System.out.println("region = " + region);
+				out.println("region = " + region);
+				break;
+			case "game_state":
+				game_state = iter.readAny().toString();
+				System.out.println("game_state = " + game_state);
+				out.println("game_state = " + game_state);
+				break;
+			case "game_mode":
+				game_mode = iter.readAny().toString();
+				System.out.println("game_mode = " + game_mode);
+				out.println("game_mode = " + game_mode);
+				break;
+			case "game_type":
+				game_type = iter.readAny().toString();
+				System.out.println("game_type = " + game_type);
+				out.println("game_type = " + game_type);
+				break;
+			case "mmr":
+				mmr = iter.readAny().toString();
+				System.out.println("mmr = " + mmr);
+				out.println("mmr = " + mmr);
+				break;
+			case "winner":
+				winner_team = iter.readAny().toString();
+				System.out.println("winner teamID = " + winner_team);
+				out.println("winner teamID = " + winner_team);
+				break;
+			case "players":
+				while (iter.readArray()) {
+					for (String player = iter.readObject(); player != null; player = iter.readObject()) {
+						switch (player) {
+
+						case "teamID":
+							teamID = iter.readAny().toString();
+							if (teamID.equals(winner_team)) {
+								result = 1;
+							} else {
+								result = 0;
+							}
+							break;
+						case "localID":
+							localID = iter.readAny().toString();
+
+							break;
+
+						case "championID":
+							championID = iter.readAny().toString();
+
+							break;
+
+						default:
+							iter.skip();
+
+						}
+
+					}
+					if (championID != null && localID != null) {
+						playerlists.add(localID + ":" + championID);
+					}
+				}
+				for (int i = 0; i < playerlists.size(); i++) {
+					String[] a = playerlists.get(i).split(":");
+
+					out.println("localID: " + a[0] + " ,championID:" + a[1]);
+				}
+				break;
+
+			case "data":
+				for (String nestfield = iter.readObject(); nestfield != null; nestfield = iter.readObject()) {
+					switch (nestfield) {
+					case "damageEvents":
+						int index = 0;
+
+						while (iter.readArray()) {
+							String local_dealer = null;
+							String local_receiver = null;
+
+							for (String event = iter.readObject(); event != null; event = iter.readObject()) {
+								switch (event) {
+								case "time":
+									damage_time = iter.readAny().toString();
+									break;
+								case "receiverUnitID":
+
+									receiverUnitID = iter.readAny().toString();
+									for (int i = 0; i < playerlists.size(); i++) {
+										String[] a = playerlists.get(i).split(":");
+
+										if (receiverUnitID.equals(a[0])) {
+											local_receiver = a[1];
+										}
+									}
+
+									break;
+								case "dealerUnitID":
+
+									dealerUnitID = iter.readAny().toString();
+									for (int i = 0; i < playerlists.size(); i++) {
+										String[] a = playerlists.get(i).split(":");
+
+										if (dealerUnitID.equals(a[0])) {
+											local_dealer = a[1];
+										}
+									}
+
+									break;
+								case "damage":
+
+									damage = iter.readAny().toString();
+									// System.out.println(" damage="+damage);
+									break;
+
+								default:
+									iter.skip();
+
+								}
+
+							}
+
+							if (local_receiver != null && local_dealer != null) {
+								// System.out.println("iterator= "+index+"
+								// ,time: "+damage_time+" ,champion_ID_receiver=
+								// "+local_receiver+" ,champion_ID_dealer=
+								// "+local_dealer+
+								// " ,damage= "+damage);
+								out.println("iterator= " + index + " ,time: " + damage_time + " ,champion_ID_receiver= "
+										+ local_receiver + " ,champion_ID_dealer= " + local_dealer + " ,damage= "
+										+ damage);
+								index++;
+							} else {
+								// System.out.println("iterator= "+index);
+//								out.println("iterator= " + index);
+								index++;
+							}
+
+						}
+
+						break;
+
+					default:
+						iter.skip();
+
+					}
+				}
+				break;
+
+			default:
+				iter.skip();
+			}
+		}
+
+		out.close();
+
+	}
+
+	public static void parsejson(String input) {
+
+		final JsonParser parser = Json.createParser(new StringReader(input));
+		String key = null;
+		String value = null;
+
+		int result = 0;
+		String championID = null;
+		String region = null;
+		String season = null;
+		String patch = null;
+		String mmr = null;
+		String game_state = null;
+		String game_mode = null;
+		String game_type = null;
+		String length = null;
+		String winner_team = null;
+		String teamID = null;
+
+		int i = 1;
+		while (parser.hasNext()) {
+			final Event event = parser.next();
+			switch (event) {
+			case KEY_NAME:
+				key = parser.getString();
+
+				if (key.equals("region")) {
+					parser.next();
+					region = parser.getString();
+					System.out.println(i + " region: " + region);
+					i++;
+				} else if (key.equals("game_state")) {
+
+					parser.next();
+					game_state = parser.getString();
+					System.out.println("game_state: " + game_state);
+
+				}
+				// game_type
+				else if (key.equals("game_type")) {
+
+					parser.next();
+					game_type = parser.getString();
+					System.out.println("game_type: " + game_type);
+
+				}
+				// mmr
+				else if (key.equals("mmr")) {
+
+					parser.next();
+					mmr = parser.getString();
+					System.out.println("mmr: " + mmr);
+
+				}
+				// season
+				else if (key.equals("season")) {
+
+					parser.next();
+					season = parser.getString();
+					System.out.println("season: " + season);
+
+				}
+				// patch
+				else if (key.equals("patch")) {
+
+					parser.next();
+					patch = parser.getString();
+					System.out.println("patch: " + patch);
+
+				}
+				// length
+				else if (key.equals("length")) {
+
+					parser.next();
+					length = parser.getString();
+					System.out.println("length: " + length);
+
+				}
+				// winnner
+				else if (key.equals("winner")) {
+
+					parser.next();
+					winner_team = parser.getString();
+					System.out.println("winner: " + winner_team);
+
+				}
+
+				else if (key.equals("players")) {
+
+					parser.next();
+					JsonArray p = parser.getArray();
+
+					for (JsonValue a : p) {
+
+						System.out.println("teamID: " + a.asJsonObject().get("teamID").toString());
+
+						if (a.asJsonObject().get("teamID").toString().equals(winner_team)) {
+							result = 1;
+							System.out.println("won");
+						} else {
+							result = 0;
+							System.out.println("lose");
+						}
+						// System.out.println(parser.getString());
+
+						championID = a.asJsonObject().get("championID").toString();
+
+						System.out.println("championID: " + championID);
+					}
+
+				} else if (key.equals("data")) {
+
+					parser.next();parser.next();
+					String data = parser.getString();
+					if(data.equals("damageEvents")){
+					System.out.println(data);
+					}
+					else
+						{
+						parser.next();
+						}
+
+
+				}
+
+			default:
+				break;
+
+			}
+		}
+		parser.close();
+
+	}
+	
+	public static void steamingAPI(String input){
+		 final JsonParser parser = Json.createParser(new StringReader(input));
+		    String k = null;
+		    String value = null;
+		    String game_id = null;
+			String length = null;
+			String receiverUnitID = null;
+			String dealerUnitID = null;
+			String damage = null;
+			String localID = null;
+			String championID=null;
+			String damage_time = null;
+			ArrayList<String> playerlists = new ArrayList<String>();
+		    
+			while (parser.hasNext()) {
+		        final Event event = parser.next();
+		       
+		     
+		        switch (event) {
+		        case KEY_NAME:
+		            
+		            k = parser.getString();
+					if (k.equals("game_id")){
+						parser.next();
+						game_id=parser.getString();
+
+						
+					}
+					else if (k.equals("length")){
+						parser.next();
+						length=parser.getString();
+
+						
+					}
+					else if (k.equals("players")) {
+						parser.next();
+						JsonArray players = parser.getArray();
+						
+						for (JsonValue p : players) {
+							localID = p.asJsonObject().get("localID").toString();
+							championID = p.asJsonObject().get("championID").toString();
+							
+							if (championID != null && localID != null) {
+							playerlists.add(localID + ":" + championID);
+						}
+						}
+						
+						for(int i=0; i <playerlists.size();i++){
+							System.out.println(playerlists.get(i));
+						}
+					}
+					else if (k.equals("damageEvents")) {
+						parser.next();
+						JsonArray DE = parser.getArray();
+						int index = 0;
+						for (JsonValue d : DE) {
+							 String championID_receiver = null;
+						     String championID_dealer = null;
+
+							damage_time = d.asJsonObject().get("time").toString();
+							receiverUnitID=d.asJsonObject().get("receiverUnitID").toString();
+							dealerUnitID = d.asJsonObject().get("dealerUnitID").toString();
+							
+							for (int i = 0; i < playerlists.size(); i++) {
+								String[] a = playerlists.get(i).split(":");
+
+								if(receiverUnitID.equals(a[0])){
+									championID_receiver = a[1];
+								}
+								if (dealerUnitID.equals(a[0])) {
+									championID_dealer = a[1];
+								}
+								
+							
+							}
+							damage= d.asJsonObject().get("damage").toString();
+							if( championID_receiver != null && championID_dealer != null){
+								System.out.println("i= "+index+" ,"+game_id+","+length+","+damage_time+","+
+										championID_receiver+","+
+								championID_dealer+"\t"+
+								damage);
+								
+							}
+							else{
+								System.out.println("i= "+index);
+							}
+							index++;
+						}
+						
+					}
+		            
+		            break;
+
+		        }
+		        
+		    }
+		    parser.close();
+	}
+
+}

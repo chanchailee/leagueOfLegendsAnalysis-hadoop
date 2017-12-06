@@ -54,13 +54,15 @@ public class MapWard {
 	 * 
 	 * If MMR < 2000 , low If MMR >= 2000, high
 	 * 
-	 * Early game: Sub 15 minutes. (<= 900 second) Mid game: Between 15-35
-	 * minutes. (>900 && <= 2100 second) Late game: 35+ minutes. (>2100 second)
+	 * Early game: Sub 15 minutes. (<= 900 second) ,Mid game: Between 15-35
+	 * minutes. (>900 && <= 2100 second), Late game: 35+ minutes. (>2100 second)
 	 */
 
 	/*
-	 * Desire output from mapper keys: game_id, mmr , won or lost (compare
-	 * CasterUnitID with localID of winner) values: x,y,startTime
+	 * Desire output from mapper 
+	 * keys: game_id, mmr , won or lost (compare CasterUnitID with localID of winner) 
+	 * 
+	 * values: x,y,startTime
 	 * (early,mid,late)
 	 * 
 	 */
