@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
 <fullyQualifiedTypeName name="bigdata.lol.EarlyGameWard"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
 </qualifiedTypeNameHistroy>
