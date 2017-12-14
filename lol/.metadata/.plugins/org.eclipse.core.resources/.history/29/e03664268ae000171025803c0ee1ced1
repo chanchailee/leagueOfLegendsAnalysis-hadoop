@@ -1,0 +1,61 @@
+/*
+ * Author: Chanchai Lee
+ * */
+package ward;
+
+import java.io.IOException;
+import java.text.DecimalFormat;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
+
+
+
+
+/*
+ * The purpose of this class is to find:
+ * Does number of wards correspond to team_win_rate for both low MMR and high MMR?
+ * 
+ * This class will use input from MapData.java output.
+ * */
+public class WardMattersWinRateMMR {
+	
+	public static void main(String[] args) throws Exception {
+
+		Configuration c = new Configuration();
+		String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
+		/* path for input file */
+		Path input = new Path(files[0]);
+		/* output directory for job1 */
+		Path output = new Path(files[1]);
+
+		Job job1 = new Job(c, "Find winner_team winrate that correspond to number of ward or not for both low MMR and high MMR");
+		/* Specific main class in side jar file */
+		job1.setJarByClass(WardMattersWinRateMMR.class);
+		/* Specific name for mapper class */
+		job1.setMapperClass(MMRMapper.class);
+		/* Specific name for reducer class */
+		job1.setReducerClass(MMRReducer.class);
+
+		/* Modify number of reducers */
+		int numReducers = 1;
+		job1.setNumReduceTasks(numReducers);
+
+		job1.setOutputKeyClass(Text.class);
+		job1.setOutputValueClass(Text.class);
+
+		FileInputFormat.addInputPath(job1, input);
+		FileOutputFormat.setOutputPath(job1, output);
+
+		System.exit(job1.waitForCompletion(true) ? 0 : 1);
+
+	}
+
+}

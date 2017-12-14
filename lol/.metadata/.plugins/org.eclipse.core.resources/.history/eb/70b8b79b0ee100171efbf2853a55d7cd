@@ -1,0 +1,17 @@
+/*
+ * Author: Chanchai Lee
+ * */
+
+package championkill;
+
+/*
+ * The purpose of this class is to find:
+ * Does number of champion kill correspond to team_win_rate for all MMR?
+ * 
+ * This class will use input from ChampionKillMapData.java output.
+ * */
+
+
+public class ChampionKillMattersWinRate {
+
+}

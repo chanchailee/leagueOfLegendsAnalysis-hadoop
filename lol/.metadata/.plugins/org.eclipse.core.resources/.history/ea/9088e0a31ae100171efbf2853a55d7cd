@@ -1,0 +1,17 @@
+/*
+ * Author: Chanchai Lee
+ * */
+package bigdata.lol;
+
+
+/*
+ * There purpose of this class is to find all ward positional x,y in all game
+ * 
+ * 
+ * */
+
+public class PositionalWardCount {
+	
+	
+
+}

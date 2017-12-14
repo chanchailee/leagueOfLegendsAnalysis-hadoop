@@ -1,0 +1,15 @@
+/*
+ * Author: Chanchai Lee
+ * */
+package minionkill;
+
+/*
+ * The purpose of this class is to find:
+ * Does number of minion kill correspond to team_win_rate for low MMR and high MMR?
+ * 
+ * This class will use input from MinionMapData.java output.
+ * */
+
+public class MinnionMattersWinRateMMR {
+
+}
